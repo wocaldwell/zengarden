@@ -1,0 +1,98 @@
+/****************************************
+GENERAL
+****************************************/
+
+* {
+    cursor: w-resize;
+}
+
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #1A1A1A;
+    color: #66F4B4;
+}
+
+h3 {
+    color: #1A1A1A;
+    background-color: #66F4B4;
+}
+
+/****************************************
+HEADER
+****************************************/
+
+header {
+    text-align: center;
+    border: 5px dashed #66F4B4;
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+
+header h1,
+h2 {
+    color: #1A1A1A;
+    background-color: #66F4B4;
+    width: 100%;
+    margin: auto;
+}
+
+/****************************************
+LINKS
+****************************************/
+
+a {
+    color: #9A9A9A;
+    cursor: crosshair;
+}
+
+a:hover {
+    color: #1A1A1A;
+    background-color: #66F4B4;
+    padding: 0 5px;
+}
+
+/***************************************************
+ Changing the bullet icon to another char for ul's
+***************************************************/
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: ">>";
+  padding-right: 5px;
+}
+
+/****************************************
+FOOTER
+****************************************/
+
+footer {
+    text-align: center;
+    font-size: 2em;
+}
+
+footer a:before {
+    color: #66F4B4;
+    content: "--->";
+    padding-right: 5px;
+    text-decoration: blink;
+}
+
+
+
+
+
+
